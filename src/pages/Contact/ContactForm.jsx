@@ -22,7 +22,7 @@ const ContactForm = () =>
         console.log("Logging data", data);
 
         data = {
-            ...data, "access_key": "4db66591-b7bf-4c47-aa51-59eef6740101", "subject": `${data.firstname} has submitted form!`
+            ...data, "access_key": "4db66591-b7bf-4c47-aa51-59eef6740101", "subject": `${data.firstname} has submitted a form!`
         }
         try
         {

@@ -1,6 +1,7 @@
 import { Link, matchPath, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { NavbarLinks } from "../data/navbar-links";
+import logo from "../assets/logo.PNG";
 
 const Navbar = () => {
   const location = useLocation();
@@ -14,11 +15,13 @@ const Navbar = () => {
     <div
       className={`flex h-14 items-center justify-center border-b-[1px] border-b-richblack-700 transition-all duration-200`}
     >
-      <div className="flex w-11/12 max-w-maxContent items-center justify-between">
+      <div className="h-full flex w-11/12 max-w-maxContent items-center justify-between">
         {/* Logo */}
-        <Link to="/">
-          <span className="text-xl font-bold text-yellow-25">Logo</span>
-        </Link>
+        <div>
+          <Link to="/">
+            <img src={logo} alt="logo" loading="lazy"  className="logo"/>
+          </Link>
+        </div>
 
         {/* Hamburger Menu Button */}
         <button
@@ -110,3 +113,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+ 

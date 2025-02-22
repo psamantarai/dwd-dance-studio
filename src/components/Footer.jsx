@@ -14,10 +14,10 @@ const Footer = () =>
       </nav>
       <nav>
         <div className="grid grid-flow-col gap-4">
-          <a href="https://instagram.com">
+          <a href="https://www.instagram.com/dwd_studio__/">
             <FaInstagram className="text-3xl" />
           </a>
-          <a href="https://youtube.com">
+          <a href="https://www.youtube.com/@dancewithdivi2603">
             <FaYoutube className="text-3xl" />
           </a>
           <a href="https://facebook.com">

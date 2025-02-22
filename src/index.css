@@ -49,3 +49,13 @@ body {
 .form-style {
   @apply rounded-lg bg-richblack-700 p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-richblack-400 focus:outline-none;
 }
+.nav-btn {
+  @apply w-12 h-12 p-2 text-white flex items-center justify-center
+}
+
+.logo {
+  filter: brightness(1) invert();
+  height: 90px; 
+  margin-top: 0.5rem ;
+}
+

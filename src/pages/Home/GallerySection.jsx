@@ -20,7 +20,7 @@ const GallerySection = () => {
             rhythm and discover the beauty of expression through dance.
           </p>
           <div className="w-[50%] sm:w-[30%] mt-6 ">
-            <Button active={true}>
+            <Button active={true} linkto={"/gallery"}>
               Take a Look <FaLongArrowAltRight />{" "}
             </Button>
           </div>
