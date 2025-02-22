@@ -15,11 +15,13 @@ const Navbar = () => {
     <div
       className={`flex h-14 items-center justify-center border-b-[1px] border-b-richblack-700 transition-all duration-200`}
     >
-      <div className="p-4 flex w-11/12 max-w-maxContent items-center justify-between">
+      <div className="h-full flex w-11/12 max-w-maxContent items-center justify-between">
         {/* Logo */}
-        <Link to="/">
-          <img src={logo} alt="logo" width={150} height={28} loading="lazy" />
-        </Link>
+        <div>
+          <Link to="/">
+            <img src={logo} alt="logo" loading="lazy"  className="logo"/>
+          </Link>
+        </div>
 
         {/* Hamburger Menu Button */}
         <button
@@ -111,3 +113,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+ 
