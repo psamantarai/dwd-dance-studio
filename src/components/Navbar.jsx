@@ -1,6 +1,7 @@
 import { Link, matchPath, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { NavbarLinks } from "../data/navbar-links";
+import logo from "../assets/logo.PNG";
 
 const Navbar = () => {
   const location = useLocation();
@@ -17,7 +18,7 @@ const Navbar = () => {
       <div className="flex w-11/12 max-w-maxContent items-center justify-between">
         {/* Logo */}
         <Link to="/">
-          <span className="text-xl font-bold text-yellow-25">Logo</span>
+          <img src={logo} alt="logo" width={150} height={28} loading="lazy" />
         </Link>
 
         {/* Hamburger Menu Button */}
