@@ -17,10 +17,6 @@ const HeroSection = () => {
           unleash your passion for dance and connect with a community that
           inspires.
         </p>
-        <div className="mt-7 flex gap-7">
-          <Button active={true}>Learn More</Button>
-          <Button>Book a demo</Button>
-        </div>
       </div>
       <img src={HeroImage} className="my-7" />
       {/* <video
@@ -49,7 +45,7 @@ const HeroSection = () => {
           </div>
           {/* Button Group */}
           <div className="flex gap-7 ">
-            <Button active={true} linkto={""}>
+            <Button active={true} linkto={"/about"}>
               <div className="flex items-center gap-2">Know more</div>
             </Button>
           </div>

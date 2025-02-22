@@ -1,4 +1,3 @@
-import CustomerTestimonialSection from "./CustomerTestimonialSection";
 import GallerySection from "./GallerySection";
 import HeroSection from "./HeroSection";
 import InstructorSection from "./InstructorSection";
@@ -11,7 +10,6 @@ const Home = () => {
       <InstructorSection />
       <VideoSection />
       <GallerySection />
-      <CustomerTestimonialSection />
     </main>
   );
 };
