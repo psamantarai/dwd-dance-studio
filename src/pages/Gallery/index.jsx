@@ -22,7 +22,7 @@ const Gallery = () => {
             <HighlightText text={"Brighter Tomorrow"} />
             <p className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
               DWD Studio is at the forefront of transforming dance education.
-              We're passionate about shaping a brighter future by offering
+              We&apos;re passionate about shaping a brighter future by offering
               diverse dance styles, embracing creativity, and fostering a
               supportive and vibrant dance community.
             </p>
@@ -60,7 +60,7 @@ const Gallery = () => {
         <h1 className="text-4xl md:text-5xl font-bold">OUR DANCE GALLERY</h1>
       </div>
 
-      <div className="px-4 columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+      <div className="p-4 columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
         {galleryImages.map((image) => (
           <GalleryItem
             key={image.id}

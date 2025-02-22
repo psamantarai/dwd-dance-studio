@@ -18,7 +18,7 @@ const About = () => {
             <HighlightText text={"Brighter Tomorrow"} />
             <p className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
               DWD Studio is at the forefront of transforming dance education.
-              We're passionate about shaping a brighter future by offering
+              We&apos;re passionate about shaping a brighter future by offering
               diverse dance styles, embracing creativity, and fostering a
               supportive and vibrant dance community.
             </p>
@@ -52,13 +52,13 @@ const About = () => {
               </h1>
 
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                DWD Studio is Bangalore's pioneer professional dance school
+                DWD Studio is Bangalore&apos;s pioneer professional dance school
                 formed in 2018. A strong passion for dance along with
                 dedication, discipline and hard work has helped DWD take dance
-                to new heights. Over the last 7 years Divya , the artistic
+                to new heights. Over the last 7 years Divya, the artistic
                 founder of DWD has put her mind, heart and soul in gradually
                 creating not just a successful dance school but has also made
-                DWD an "Entertainment Destination”
+                DWD an &quot;Entertainment Destination&quot;
               </p>
 
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">

@@ -12,37 +12,37 @@ const ClassesGridArray = [
     order: 1,
     heading: "Dance Class",
     description:
-      "Kids Batch: 4 t0 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 & above Special Bollywood ladies batch: 18 & above",
+      "Kids Batch: 4 to 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 & above Special Bollywood ladies batch: 18 & above",
   },
   {
     order: 2,
     heading: "Music Class",
     description:
-      "Kids Batch: 5 t0 10 years Juniors Batch: 10 to 17 years Adults Batch: 18 years & above",
+      "Kids Batch: 5 to 10 years Juniors Batch: 10 to 17 years Adults Batch: 18 years & above",
   },
   {
     order: 3,
     heading: "Karate Class",
     description:
-      "Kids Batch: 4 t0 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 years & above",
+      "Kids Batch: 4 to 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 years & above",
   },
   {
     order: 4,
     heading: "Classical Class",
     description:
-      "Kids Batch: 4 t0 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 years & above",
+      "Kids Batch: 4 to 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 years & above",
   },
   {
     order: 5,
     heading: "Kathak Class",
     description:
-      "Kids Batch: 4 t0 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 years & above",
+      "Kids Batch: 4 to 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 years & above",
   },
   {
     order: 6,
     heading: "Gymnastics",
     description:
-      "Kids Batch: 4 t0 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 years & above",
+      "Kids Batch: 4 to 10 years Juniors Batch: 10 to 18 years Adults Batch: 18 years & above",
   },
   {
     order: 7,
