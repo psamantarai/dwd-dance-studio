@@ -32,6 +32,7 @@ const contactDetails = [
   {
     icon: "IoCall",
     heading: "Call us",
+    link: "tel:+917406834343",
     description: "Mon - Sat From 8am to 10pm",
     details: "+91-7406834343",
   },
