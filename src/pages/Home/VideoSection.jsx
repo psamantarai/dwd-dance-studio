@@ -7,6 +7,7 @@ const VideoSection = () => {
         muted
         autoPlay
         loop
+        playsInline
         className="absolute top-0 left-0 object-cover h-full w-full "
       ></video>
     </section>
