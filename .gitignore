@@ -3,3 +3,4 @@ dist
 nginx
 Dockerfile
 docker-compose.yml
+.env

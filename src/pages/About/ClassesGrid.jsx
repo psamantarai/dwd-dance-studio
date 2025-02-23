@@ -101,7 +101,7 @@ const ClassesGrid = () => {
                 </p>
               </div>
             ) : (
-              <div className="p-8 flex flex-col gap-8">
+              <div className="p-7 flex flex-col gap-8">
                 <h1 className="text-richblack-5 text-lg">{card.heading}</h1>
                 <p
                   className="text-richblack-300 font-medium"
